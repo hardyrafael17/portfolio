@@ -26,7 +26,18 @@ body {
 
 .heart {
   color: red;
+	font-size: 1.5em;
+	color: #e00;
+	animation: beat .50s infinite alternate;
+	transform-origin: center;
 }
+
+/* Heart beat animation */
+@keyframes beat{
+	to { font-size: 1.8em; }
+}
+
+
 
 h2 {
   font-family: "Proza Libre", sans-serif;
@@ -100,10 +111,23 @@ summary {
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
 }
 
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+
 footer {
   margin-top:auto;
   padding: var(--spacing-2) 0;
   text-align: center;
+  height: 40px;
 }
 
 section {

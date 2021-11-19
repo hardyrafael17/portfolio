@@ -23,16 +23,16 @@ export const Main = () => {
                 <summary className="project-title">
                 <h3>News Reader</h3>
                 </summary>
-                <img src={newsReader} alt="News Raeder" className="project-image" />
+                <a href="https://news-reader-react-redux.web.app/" target="_blank" rel="noopenner noreferrer" ><img src={newsReader} alt="News Raeder" className="project-image" /></a>
                 <p className="project-description">
-                A project to demonstrate the use of React Redux Store by Codecademy. In this project you can add comments to each article, the important part of the project occurs in the background in the way how the articles are loaded, there is API mocking, Http requests, Asynchronous and the use of the Redux Toolkit, In order to see the page live, please go to<a href="https://news-reader-react-redux.web.app/" rel="noreferrer" target="_blank" >Jammming @ Surge</a> and for the code at github please follow this link <a href="https://github.com/hardyrafael17/all-projects/tree/main/react-redux/flashcards" rel="noreferrer" target="_blank" >Flashcards @GitHub</a>
+                A project to demonstrate the use of React Redux Store by Codecademy. In this project you can add comments to each article, the important part of the project occurs in the background in the way how the articles are loaded, there is API mocking, Http requests, Asynchronous and the use of the Redux Toolkit, In order to see the page live, please go to <a href="https://news-reader-react-redux.web.app/" rel="noreferrer" target="_blank" >Jammming @ Surge</a> and for the code at github please follow this link <a href="https://github.com/hardyrafael17/all-projects/tree/main/react-redux/news-reader" rel="noreferrer" target="_blank" >News Reader @GitHub</a>
                 </p>
             </details>
             <details className="project">
                 <summary className="project-title">
                 <h3>Flash Cards</h3>
                 </summary>
-                <img src={flashcards} alt="Flash Cards" className="project-image" />
+                <a href="https://react-redux-toolkit-flashcards.web.app/" target="_blank" rel="noopenner noreferrer" ><img src={flashcards} alt="Flash Cards" className="project-image" /></a>
                 <p className="project-description">
                 A small project to demonstrate and practice the utility of having a state store in a project, with this program you can create topics exams and cards and link each to individual assets and an also it's possible to <a href="https://react-redux-toolkit-flashcards.web.app/" rel="noreferrer" target="_blank" >Jammming @ Surge</a> and for the code at github please follow this link <a href="https://github.com/hardyrafael17/all-projects/tree/main/react-redux/flashcards" rel="noreferrer" target="_blank" >Flashcards @GitHub</a>
                 </p>
@@ -41,7 +41,7 @@ export const Main = () => {
                 <summary className="project-title">
                 <h3>Jammming</h3>
                 </summary>
-                <img src={jamming} alt="ScreenShot of the Jamming web page runnign" className="project-image" />
+                <a href="https://superjammingbandreact.surge.sh/" target="_blank" rel="noopenner noreferrer" ><img src={jamming} alt="ScreenShot of the Jamming web page runnign" className="project-image" /></a>
                 <p className="project-description">
                 A challenging project which is still in process, in this project i demonstrate the usage of an API, in this case from Spotify, in order to request information and for playlists. To see the project live follow the link <a href="https://superjammingbandreact.surge.sh/" rel="noreferrer" target="_blank" >Jammming @ Surge</a> and for the code at github please follow this link <a href="https://github.com/hardyrafael17/react-jamming-codecademy" rel="noreferrer" target="_blank" >Jammming @GitHub</a>
                 </p>
