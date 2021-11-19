@@ -51,6 +51,8 @@ nav {
   display: flex;
   align-items: center;
   padding: var(--spacing-3) 0;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .navigation-items {
@@ -65,7 +67,9 @@ nav {
 .navigation-item {
   margin: var(--spacing-1);
 }
-
+#logo {
+  min-width: 250px ;
+}
 .portrait {
   width: 300px;
   border-radius: var(--border-radius);
